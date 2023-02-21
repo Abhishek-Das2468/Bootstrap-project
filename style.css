@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1000;
+}
+.main{
+    min-height: 80vh;
+    background: url('https://images.unsplash.com/photo-1675250349765-d076de3265e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1257&q=80');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.heading{
+    width: 50vw;
+}
+.first{
+    border: 2px solid red;
+}
+.second{
+    border: 2px solid red;
+}
+.img img{
+    height: 400px;
+}
+/* .back{
+    background: url("birds.jpg");
+    min-height: 40vh;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+.back{
+    background: grey;
+}
+.small{
+    max-width: 60vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:614px)
+{
+    .back img{
+        max-width: 400px;
+    }
+}
+@media screen and (max-width:410px)
+{
+    .back img{
+        max-width: 300px;
+    }
+}
